@@ -1,0 +1,10 @@
+{
+  "name": "typescript-kata",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Hasan Kemal Demirci <ha_rap@hotmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.2"
+  }
+}
