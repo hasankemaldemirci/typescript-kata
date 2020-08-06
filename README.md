@@ -1,0 +1,2 @@
+# typescript-kata
+TypeScript playground
