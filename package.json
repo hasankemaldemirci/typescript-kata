@@ -5,6 +5,11 @@
   "author": "Hasan Kemal Demirci <ha_rap@hotmail.com>",
   "license": "MIT",
   "dependencies": {
-    "axios": "^0.19.2"
+    "@types/faker": "^5.1.0",
+    "axios": "^0.19.2",
+    "faker": "^5.1.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.0.2"
   }
 }
