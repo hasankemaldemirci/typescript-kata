@@ -1,2 +1,2 @@
-# typescript-kata
-TypeScript playground
+# TypeScript Playground
+Some examples to learning typescript basics.
