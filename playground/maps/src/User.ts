@@ -1,11 +1,14 @@
-import faker from "faker";
+import faker from 'faker';
 
-export class User {
+import { Target } from './CustomMap';
+
+export class User implements Target {
   name: string;
   location: {
     lat: number;
     lng: number;
   };
+  color: string = 'red';
 
   constructor() {
     this.name = faker.name.firstName();
@@ -13,5 +16,9 @@ export class User {
       lat: parseFloat(faker.address.latitude()),
       lng: parseFloat(faker.address.longitude()),
     };
+  }
+
+  markerContent(): string {
+    return `User Name: ${this.name}`;
   }
 }
