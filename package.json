@@ -7,7 +7,7 @@
   "dependencies": {
     "@types/faker": "^5.1.0",
     "@types/google.maps": "^3.46.0",
-    "axios": "^0.19.2",
+    "axios": "^0.21.2",
     "faker": "^5.1.0"
   },
   "devDependencies": {
